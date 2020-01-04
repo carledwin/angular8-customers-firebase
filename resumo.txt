@@ -1,0 +1,10 @@
+ng new angular8-customers-firebase
+cd angular8-customers-firebase
+touch resumo.txt
+npm install --save firebase @angular/fire
+ng g class customers/models/Customer --type=model
+ng g s customers/services/Customer
+ng g c customers/components/CustomerDetails
+ng g c customers/components/CustomerList
+ng g c customers/components/CustomerCreate
+npm install bootstrap @ng-bootstrap/ng-bootstrap --save
